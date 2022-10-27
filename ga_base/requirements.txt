@@ -65,7 +65,7 @@ rsa==3.1.2
 sh==1.09
 simplejson==3.3.1
 six==1.5.2
-sqlparse==0.1.10
+sqlparse==0.4.2
 ssh==1.8.0
 ssh-import-id==3.14
 stripe==1.11.0
