@@ -1,9 +1,9 @@
-Django==1.6.1
+Django==3.2.15
 Fabric==1.8.0
 Fiona==1.0.2
 Jinja2==2.7.1
 MarkupSafe==0.18
-Mezzanine==3.0.5
+Mezzanine==4.3.0
 Pygments==1.6
 Shapely==1.2.18
 South==0.8.4
@@ -13,7 +13,7 @@ anyjson==0.3.3
 argparse==1.2.1
 beautifulsoup4==4.3.2
 billiard==3.3.0.8
-bleach==1.4
+bleach==3.3.0
 boto==2.25.0
 celery==3.1.5
 certifi==0.0.8
@@ -31,12 +31,12 @@ django-tastypie
 django-timedeltafield==0.7.0
 docutils==0.11
 ecdsa==0.10
-filebrowser-safe==0.3.1
+filebrowser-safe==1.1.1
 future==0.9.0
 geojson==1.0.5
 grappelli-safe==0.3.4
 gunicorn==18.0
-html5lib==1.0b3
+html5lib==1.0b9
 imposm==2.5.0
 imposm.parser==1.0.5
 ipython==1.1.0
@@ -46,7 +46,7 @@ mimeparse==0.1.3
 nose==1.3.0
 numericalunits==1.13
 numexpr==2.2.2
-oauthlib==0.6.0
+oauthlib==0.7.0
 paramiko==1.12.0
 protobuf==2.5.0
 psycopg2==2.5.1
@@ -59,7 +59,7 @@ python-safe==1.1.2
 pytz==2013.9
 readline==6.2.4.1
 redis==2.8.0
-requests==2.2.0
+requests==2.20
 requests-oauthlib==0.4.0
 rsa==3.1.2
 sh==1.09
@@ -80,3 +80,4 @@ markdown
 django-autocomplete-light
 django-resized
 django-inplaceedit
+setuptools>=65.5.1 # not directly required, pinned by Snyk to avoid a vulnerability
