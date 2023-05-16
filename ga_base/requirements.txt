@@ -69,7 +69,7 @@ sqlparse==0.4.2
 ssh==1.8.0
 ssh-import-id==3.14
 stripe==1.11.0
-tornado==5.1
+tornado==6.3.2
 uWSGI==2.0.17
 urllib3==1.26.5
 wsgiref==0.1.2
