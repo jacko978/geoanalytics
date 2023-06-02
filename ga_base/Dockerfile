@@ -1,4 +1,4 @@
-FROM ubuntu:rolling
+FROM ubuntu:23.04
 
 RUN apt-get update
 RUN apt-get install -y python2.7-mapnik python2.7-scipy python2.7-numpy python2.7-psycopg2 cython python2.7-pysqlite2
